@@ -1,0 +1,7 @@
+
+you need the gnu linker from binutils to link object files into the final kernel.
+the gnu assembler from binutils (or optionally nasm) is required to assemble instructions into object files with machine code.
+the gnu compiler collection compiles high-level code into assembly.
+the c programming language (or optionally c++) is used to write the high-level parts of the kernel.
+the grub bootloader loads the kernel using the multiboot boot protocol, which starts in 32-bit protected mode with paging disabled.
+the elf format provides control over where and how the kernel is loaded.
